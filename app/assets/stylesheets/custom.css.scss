@@ -1,0 +1,61 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+// Navbar
+.navbar {
+  background-color: black !important;
+}
+
+.navbar-brand {
+  margin-left: 10px;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+#logo {
+  color: #fff;
+  float: left;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+
+// Carousel
+.carousel-item {
+  height: 475px !important;
+}
+
+#home-container {
+  margin-top: 25px;
+}
+
+.carousel-caption {
+  text-align: right;
+  margin-bottom: 250px;
+}
+
+.darken-img {
+  filter: brightness(65%)
+}
+
+// Footer
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgray;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
