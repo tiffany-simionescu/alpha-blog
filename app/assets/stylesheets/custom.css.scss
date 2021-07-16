@@ -88,9 +88,15 @@ body {
   margin: 0 auto;
 }
 
+// Form
+.btn-width {
+  width: fit-content;
+}
+
 @media (max-width: 770px) {
 
   .carousel-caption {
     text-align: center;
   }
 }
+
