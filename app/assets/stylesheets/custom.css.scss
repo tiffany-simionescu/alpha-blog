@@ -75,3 +75,22 @@ body {
 .card-header {
   font-style: italic !important;
 }
+
+.card-link {
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+.card-center {
+  margin: 0 auto;
+}
+
+@media (max-width: 770px) {
+
+  .carousel-caption {
+    text-align: center;
+  }
+}
