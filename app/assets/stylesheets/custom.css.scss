@@ -58,8 +58,20 @@ body {
 
 #sticky-footer {
   // flex-shrink: none;
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   height: 4.5rem; 
+}
+
+// Cards
+.card {
+  max-width: 800px !important; 
+  min-width: 540px !important; 
+  min-height: 200px !important; 
+  margin: 30px auto !important;
+}
+
+.card-header {
+  font-style: italic !important;
 }
