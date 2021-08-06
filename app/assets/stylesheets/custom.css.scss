@@ -75,6 +75,17 @@ body {
   margin: 30px auto !important;
 }
 
+.card-category {
+  max-width: 450px;
+  // min-height: 120px;
+  margin: 30px auto;
+}
+
+.text-category {
+ display: flex;
+ justify-content: center;
+}
+
 .card-header {
   font-style: italic !important;
 }
