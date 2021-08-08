@@ -122,6 +122,15 @@ body {
   margin-top: -10px;
 }
 
+.no-underline {
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.no-underline:hover {
+  color: #fff !important;
+}
+
 // Pagination
 .flickr_pagination {
   text-align: center;
