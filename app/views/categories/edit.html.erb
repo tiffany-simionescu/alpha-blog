@@ -1,12 +1,12 @@
 <div id="page-content">
-  <h1 class="text-center mt-4">Create a new category</h1>
+  <h1 class="text-center mt-4">Edit category name</h1>
 
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-10">
         <%= render "form" %>
       </div>
-      <%= link_to '[ Cancel and Return to categories Listing ]', categories_path, class: "text-center mt-3" %>
+      <%= link_to '[ Cancel and Return to category ]', category_path(@category), class: "text-center mt-3" %>
     </div>
   </div>
 </div>
