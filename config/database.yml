@@ -10,7 +10,7 @@ default: &default
   timeout: 5000
 
 development:
-  <<: *default
+  <<: *default 
   database: db/development_db
 
 # Warning: The database defined as "test" will be erased and
